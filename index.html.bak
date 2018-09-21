@@ -25,17 +25,18 @@
 			}
 		</script>
 		<style type="text/css">
-			body {
-				background-color:black;				
+			body {	
+				background-color:black;		
 				background-position:center center;
-				/*background-size: cover;
-				/*background-size: contain;
-				background-size: 100% 100%;*/
+				background-size: cover;
+				background: url("https://api.dujin.org/bing/1366.php");
+				/*background-size: contain;*/
+				/*background-size: 100% 100%;*/
 			}
 		</style> 
     <title>定制化首页</title>
   </head>
-  <body class="text-center" background="https://api.dujin.org/bing/1366.php">
+  <body class="text-center">
   <!--body class="text-center"  background="https://api.dujin.org/bing/1366.php" background-size="cover"" background-repeat="no-repeat" background-position="center center"-->
     <div class="form-signin">
       <!--img class="mb-4" src="../../assets/brand/bootstrap-solid.svg" alt="" width="72" height="72"-->
