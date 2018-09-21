@@ -15,11 +15,15 @@
   <!-- Demo styles -->
   <script type="text/javascript">
 		function searchBaidu(){
-  		var url="https://www.baidu.com/s?wd="+wd.value;
+  		var url="https://www.baidu.com/s?wd="+document.getElementById('wd').value;
       window.location.href=url;
 		}
 		function searchBing(){
-  		var url="https://www.bing.com/search?q="+wd.value;
+  		var url="https://www.bing.com/search?q="+document.getElementById('wd').value;
+      window.location.href=url;
+		}
+		function searchZhihu(){
+  		var url="https://www.zhihu.com/search?type=content&q="+document.getElementById('wd').value;
       window.location.href=url;
 		}
 	</script>
@@ -29,7 +33,7 @@
       height: 100%;
     }
     body {
-      background: white;
+      background: HoneyDew;
       font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
       font-size: 14px;
       color:#000;
@@ -37,13 +41,13 @@
       padding: 0;
     }
     .swiper-container {
-      width: 100%;
-      height: 100%;
+      width: 400px;
+      height: 400px;
       position: absolute;
-      /*left: 50%;
+      left: 50%;
       top: 50%;
-      margin-left: -150px;
-      margin-top: -150px;*/
+      margin-left: -250px;
+      margin-top: -200px;
     }
     .swiper-slide {      
       background-position:center;   
@@ -85,7 +89,10 @@
     						</button> 
     					</div> 
     					<div class="btn-group mr-2" role="group"> 
-    						<button type="button btn-lg" class="btn btn-dark" type="button" onclick="searchBing()"><b>必应</b></button> 
+    						<button type="button btn-lg" class="btn btn-warning" type="button" onclick="searchBing()"><b>必应</b></button> 
+    					</div> 
+    					<div class="btn-group mr-2" role="group"> 
+    						<button type="button btn-lg" class="btn btn-primary" type="button" onclick="searchZhihu()"><b>知乎</b></button> 
     					</div> 
     				</div> 
     			</div>
