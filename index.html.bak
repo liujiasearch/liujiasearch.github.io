@@ -34,7 +34,7 @@
 				/*background-size: 100% 100%;*/
 			}
 		</style> 
-    <title>定制化首页</title>
+    <title>简易搜索首页</title>
   </head>
   <body class="text-center">
   <!--body class="text-center"  background="https://api.dujin.org/bing/1366.php" background-size="cover"" background-repeat="no-repeat" background-position="center center"-->
