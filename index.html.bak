@@ -26,6 +26,10 @@
   		var url="https://www.zhihu.com/search?type=content&q="+document.getElementById('wd').value;
       window.location.href=url;
 		}
+		function searchDouban(){
+  		var url="https://m.douban.com/search/?query="+document.getElementById('wd').value;
+      window.location.href=url;
+		}
 	</script>
   <style>
     html, body {
@@ -76,8 +80,9 @@
   <!-- Swiper -->
   <div class="swiper-container">
     <div class="swiper-wrapper">
-    	<div class="swiper-slide blur" style="background-image:url(https://img.xjh.me/random_img.php)">
+    	<div class="swiper-slide blur" style="background-image:url(https://open.saintic.com/api/bingPic/)">
     		<div>
+    			<img class="mb-2" src="https://image.flaticon.com/icons/svg/202/202381.svg" alt="" width="48" height="48">
     			<form class="form-signin" action="https://www.baidu.com/s" method="get">
     				 <input type="text" name="wd" id="wd" placeholder="简易搜索" class="form-control" value=""/> 
     			</form>
@@ -96,6 +101,10 @@
     					</div> 
     				</div> 
     			</div>
+    			<p></p>    			   				
+    			<button type="button" class="btn btn-success" onclick="searchDouban()"><b>豆瓣</b></button>    					
+				</div>
+				<div>					
 				</div>
     	</div>
     	<div class="swiper-slide">
