@@ -74,7 +74,21 @@
     <div class="swiper-wrapper">
     	<div class="swiper-slide" style="background-image:url(https://api.dujin.org/bing/1366.php)">
     		<div>
-    			<form class="form-signin" action="https://www.baidu.com/s" method="get"> <input type="text" name="wd" id="wd" placeholder="简易搜索" class="form-control"/> </form> <p></p> <div class="btn-group" role="group"> <div class="btn-toolbar" role="group"> <div class="btn-group mr-2" role="group"> <button type="button btn-lg" class="btn btn-secondary" type="button" onclick="searchBaidu()"><b>百度</b></button> </div> <div class="btn-group mr-2" role="group"> <button type="button btn-lg" class="btn btn-dark" type="button" onclick="searchBing()"><b>必应</b></button> </div> </div> </div>
+    			<form class="form-signin" action="https://www.baidu.com/s" method="get">
+    				 <input type="text" name="wd" id="wd" placeholder="简易搜索" class="form-control" value=""/> 
+    			</form>
+    			<p></p>
+    			<div class="btn-group" role="group"> 
+    				<div class="btn-toolbar" role="group"> 
+    					<div class="btn-group mr-2" role="group"> 
+    						<button type="button btn-lg" class="btn btn-secondary" type="button" onclick="searchBaidu()"><b>百度</b>
+    						</button> 
+    					</div> 
+    					<div class="btn-group mr-2" role="group"> 
+    						<button type="button btn-lg" class="btn btn-dark" type="button" onclick="searchBing()"><b>必应</b></button> 
+    					</div> 
+    				</div> 
+    			</div>
 				</div>
     	</div>
     	<div class="swiper-slide">
@@ -82,9 +96,9 @@
     			<div class="navbar-text text-light">常用网址</div>
     		</nav>
     		<div>
-    			<b class="text-center"><a href="https://m.kdslife.com" class="text-white"><u>宽带山</u></a></b>
-    			<b class="text-center"><a href="https://m.mi.com" class="text-white"><u>小米商城</u></a></b>
-    			<b class="text-center"><a href="https://home.mi.com/main" class="text-white"><u>米家有品</u></a></b>
+    			<b class="text-center"><a href="https://m.kdslife.com" class="text-dark"><u>宽带山</u></a></b>
+    			<b class="text-center"><a href="https://m.mi.com" class="text-dark"><u>小米商城</u></a></b>
+    			<b class="text-center"><a href="https://home.mi.com/main" class="text-dark"><u>米家有品</u></a></b>
     		</div>    		
     	</div>               
     </div>

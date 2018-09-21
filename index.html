@@ -15,11 +15,11 @@
   <!-- Demo styles -->
   <script type="text/javascript">
 		function searchBaidu(){
-  		var url="https://www.baidu.com/s?wd="+wd.value;
+  		var url="https://www.baidu.com/s?wd="+document.getElementById('wd').value;
       window.location.href=url;
 		}
 		function searchBing(){
-  		var url="https://www.bing.com/search?q="+wd.value;
+  		var url="https://www.bing.com/search?q="+document.getElementById('wd').value;
       window.location.href=url;
 		}
 	</script>
@@ -74,7 +74,21 @@
     <div class="swiper-wrapper">
     	<div class="swiper-slide" style="background-image:url(https://api.dujin.org/bing/1366.php)">
     		<div>
-    			<form class="form-signin" action="https://www.baidu.com/s" method="get"> <input type="text" name="wd" id="wd" placeholder="简易搜索" class="form-control"/> </form> <p></p> <div class="btn-group" role="group"> <div class="btn-toolbar" role="group"> <div class="btn-group mr-2" role="group"> <button type="button btn-lg" class="btn btn-secondary" type="button" onclick="searchBaidu()"><b>百度</b></button> </div> <div class="btn-group mr-2" role="group"> <button type="button btn-lg" class="btn btn-dark" type="button" onclick="searchBing()"><b>必应</b></button> </div> </div> </div>
+    			<form class="form-signin" action="https://www.baidu.com/s" method="get">
+    				 <input type="text" name="wd" id="wd" placeholder="简易搜索" class="form-control" value=""/> 
+    			</form>
+    			<p></p>
+    			<div class="btn-group" role="group"> 
+    				<div class="btn-toolbar" role="group"> 
+    					<div class="btn-group mr-2" role="group"> 
+    						<button type="button btn-lg" class="btn btn-secondary" type="button" onclick="searchBaidu()"><b>百度</b>
+    						</button> 
+    					</div> 
+    					<div class="btn-group mr-2" role="group"> 
+    						<button type="button btn-lg" class="btn btn-dark" type="button" onclick="searchBing()"><b>必应</b></button> 
+    					</div> 
+    				</div> 
+    			</div>
 				</div>
     	</div>
     	<div class="swiper-slide">
