@@ -9,25 +9,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
   <!-- Link Swiper's CSS -->
-  <link href="https://cdn.bootcss.com/Swiper/4.3.0/css/swiper.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="//cdn.bootcss.com/Swiper/4.3.0/css/swiper.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link href="signin.css" rel="stylesheet">
   <!-- Demo styles -->
   <script type="text/javascript">
 		function searchBaidu(){
-  		var url="https://www.baidu.com/s?wd="+document.getElementById('wd').value;
+  		var url="//www.baidu.com/s?wd="+document.getElementById('wd').value;
       window.location.href=url;
 		}
 		function searchBing(){
-  		var url="https://www.bing.com/search?q="+document.getElementById('wd').value;
+  		var url="//www.bing.com/search?q="+document.getElementById('wd').value;
       window.location.href=url;
 		}
 		function searchZhihu(){
-  		var url="https://www.zhihu.com/search?type=content&q="+document.getElementById('wd').value;
+  		var url="//www.zhihu.com/search?type=content&q="+document.getElementById('wd').value;
       window.location.href=url;
 		}
 		function searchDouban(){
-  		var url="https://m.douban.com/search/?query="+document.getElementById('wd').value;
+  		var url=//m.douban.com/search/?query="+document.getElementById('wd').value;
       window.location.href=url;
 		}
 	</script>
@@ -80,10 +80,10 @@
   <!-- Swiper -->
   <div class="swiper-container">
     <div class="swiper-wrapper">
-    	<div class="swiper-slide blur" style="background-image:url(https://open.saintic.com/api/bingPic/)">
+    	<div class="swiper-slide blur" style="background-image:url(//open.saintic.com/api/bingPic/)">
     		<div>
-    			<img class="mb-1" src="https://image.flaticon.com/icons/svg/202/202381.svg" alt="" width="48" height="48">
-    			<form class="form-signin" action="https://www.baidu.com/s" method="get">
+    			<img class="mb-1" src="//image.flaticon.com/icons/svg/202/202381.svg" alt="" width="48" height="48">
+    			<form class="form-signin" action="//www.baidu.com/s" method="get">
     				 <input type="text" name="wd" id="wd" placeholder="简易搜索" class="form-control" value=""/> 
     			</form>
     			<p></p>
@@ -101,7 +101,7 @@
     					</div> 
     				</div> 
     			</div>
-    			<hr/>
+    			<p/>
     			<div class="btn-group" role="group"> 
     				<div class="btn-toolbar" role="group"> 
     					<div class="btn-group mr-2" role="group"> 
@@ -119,9 +119,9 @@
     			<div class="navbar-text text-light">常用网址</div>
     		</nav>
     		<div>
-    			<b class="text-center"><a href="https://m.kdslife.com" class="text-dark"><u>宽带山</u></a></b>
-    			<b class="text-center"><a href="https://m.mi.com" class="text-dark"><u>小米商城</u></a></b>
-    			<b class="text-center"><a href="https://home.mi.com/main" class="text-dark"><u>米家有品</u></a></b>
+    			<b class="text-center"><a href="//m.kdslife.com" class="text-dark"><u>宽带山</u></a></b>
+    			<b class="text-center"><a href="//m.mi.com" class="text-dark"><u>小米商城</u></a></b>
+    			<b class="text-center"><a href="//home.mi.com/main" class="text-dark"><u>米家有品</u></a></b>
     		</div>    		
     	</div>               
     </div>
@@ -130,7 +130,7 @@
   </div>
 
   <!-- Swiper JS -->
-  <script src="https://cdn.bootcss.com/Swiper/4.3.0/js/swiper.min.js"></script>
+  <script src="//cdn.bootcss.com/Swiper/4.3.0/js/swiper.min.js"></script>
 
   <!-- Initialize Swiper -->
   <script>
