@@ -118,15 +118,25 @@
     		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     			<div class="navbar-text text-light">常用网址</div>
     		</nav>
-    		<div>
-    			<b class="text-center"><a href="//m.kdslife.com" class="text-dark"><u>宽带山</u></a></b>
-    			<b class="text-center"><a href="//m.mi.com" class="text-dark"><u>小米商城</u></a></b>
-    			<b class="text-center"><a href="//home.mi.com/main" class="text-dark"><u>米家有品</u></a></b>
-    		</div> 
+     		<div>
+     			<div>
+    				<b class="text-center"><a href="//m.kdslife.com" class="text-dark"><u>宽带山</u></a></b>
+    				<b class="text-center"><a href="//m.mi.com" class="text-dark"><u>小米商城</u></a></b>
+    				<b class="text-center"><a href="//home.mi.com/main" class="text-dark"><u>米家有品</u></a></b>
+    			</div> 
+     			<div>
+    				<b class="text-center"><a href="//shenghuo.xiaomi.com/v5/index.html" class="text-dark"><u>天天嗨购</u></a></b> 		
+    			</div>    
+     		</div>     		
     		<hr/>
     		<div>
+    			<div>
+    				<b class="text-center"><a href="//shenghuo.xiaomi.com/v5/index.html" class="text-dark"><u>天天嗨购</u></a></b> 		
+    			</div> 
+    		</div>
+    		<div>
     			<b class="text-center"><a href="//shenghuo.xiaomi.com/v5/index.html" class="text-dark"><u>天天嗨购</u></a></b> 		
-    		</div>    		
+    		</div> 
     	</div>               
     </div>
     <!-- Add Pagination -->
