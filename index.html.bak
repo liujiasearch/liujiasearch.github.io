@@ -27,7 +27,7 @@
       window.location.href=url;
 		}
 		function searchDouban(){
-  		var url=//m.douban.com/search/?query="+document.getElementById('wd').value;
+  		var url="//m.douban.com/search/?query="+document.getElementById('wd').value;
       window.location.href=url;
 		}
 	</script>
