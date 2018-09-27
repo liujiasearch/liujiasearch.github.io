@@ -83,8 +83,17 @@
     	<div class="swiper-slide blur" style="background-image:url(//open.saintic.com/api/bingPic/)">
     		<div>
     			<img class="mb-1" src="//image.flaticon.com/icons/svg/202/202381.svg" alt="" width="48" height="48">
-    			<form class="form-signin" action="//www.baidu.com/s" method="get">
-    				 <input type="text" name="wd" id="wd" placeholder="简易搜索" class="form-control" value=""/> 
+    			<form class="form-signin" action="//www.baidu.com/s" method="get">    				 
+						<div class="input-group">
+							<input type="text" name="wd" id="wd" placeholder="简易搜索" class="form-control" value=""/>
+							<div class="input-group-append">
+								<span class="input-group-text" id="basic-addon2">
+									<button type="reset" class="close" aria-label="Close" >
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</span>
+							</div>						  
+						</div>   		 
     			</form>
     			<p></p>
     			<div class="btn-group" role="group"> 
