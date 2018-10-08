@@ -16,22 +16,22 @@
   <script type="text/javascript">
 		function searchBaidu(){
 			 //document.getElementById("myForm").reset();
-  		var url=" //www.baidu.com/s?wd="+document.getElementById('wd').value;
+  		var url="//www.baidu.com/s?wd="+document.getElementById('wd').value;
       window.location.href=url;
 		}
 		function searchBing(){
-			 //document.getElementById("myForm").reset();
-  		var url=" //www.bing.com/search?q="+document.getElementById('wd').value;
+			//document.getElementById("myForm").reset();
+  		var url="//www.bing.com/search?q="+document.getElementById('wd').value;
       window.location.href=url;
 		}
 		function searchZhihu(){
-			 //document.getElementById("myForm").reset();
-  		var url=" //www.zhihu.com/search?type=content&q="+document.getElementById('wd').value;
+			//document.getElementById("myForm").reset();
+  		var url="//www.zhihu.com/search?type=content&q="+document.getElementById('wd').value;
       window.location.href=url;
 		}
 		function searchDouban(){
-			 //document.getElementById("myForm").reset();
-  		var url=" //m.douban.com/search/?query="+document.getElementById('wd').value;
+			//document.getElementById("myForm").reset();
+  		var url="//m.douban.com/search/?query="+document.getElementById('wd').value;
       window.location.href=url;
 		}
 	</script>
@@ -97,10 +97,10 @@
   <!-- Swiper -->
   <div class="swiper-container">
     <div class="swiper-wrapper">
-    	<div class="swiper-slide blur" style="background-image:url( //open.saintic.com/api/bingPic/)">
+    	<div class="swiper-slide blur" style="background-image:url(//open.saintic.com/api/bingPic/)">
     		<div>
-    			<img class="mb-1" src=" //image.flaticon.com/icons/svg/202/202381.svg" alt="" width="48" height="48">
-    			<form id="myForm" class="form-signin" action=" //www.baidu.com/s" method="get">    				 
+    			<img class="mb-1" src="//image.flaticon.com/icons/svg/202/202381.svg" alt="" width="48" height="48">
+    			<form id="myForm" class="form-signin" action="//www.baidu.com/s" method="get">    				 
 						<div class="input-group">
 							<input type="text" name="wd" id="wd" autocomplete="off" placeholder="简易搜索" class="form-control" value=""/>
 							<div class="input-group-append">
@@ -146,12 +146,12 @@
     		</div>
      		<div>
      			<div>
-    				<b class="text-center"><a href=" //m.kdslife.com" class="text-dark"><u>宽带山</u></a></b>
-    				<b class="text-center"><a href=" //m.mi.com" class="text-dark"><u>小米商城</u></a></b>
-    				<b class="text-center"><a href=" //home.mi.com/main" class="text-dark"><u>米家有品</u></a></b>
+    				<b class="text-center"><a href="//m.kdslife.com" class="text-dark"><u>宽带山</u></a></b>
+    				<b class="text-center"><a href="//m.mi.com" class="text-dark"><u>小米商城</u></a></b>
+    				<b class="text-center"><a href="//home.mi.com/main" class="text-dark"><u>米家有品</u></a></b>
     			</div> 
      			<div>
-    				<b class="text-center"><a href=" //shenghuo.xiaomi.com/v5/index.html" class="text-dark"><u>天天嗨购</u></a></b> 		
+    				<b class="text-center"><a href="//shenghuo.xiaomi.com/v5/index.html" class="text-dark"><u>天天嗨购</u></a></b> 		
     			</div>    
      		</div>     		
     	</div>               
@@ -161,7 +161,7 @@
   </div>
 
   <!-- Swiper JS -->
-  <script src=" //cdn.bootcss.com/Swiper/4.3.0/js/swiper.min.js"></script>
+  <script src="//cdn.bootcss.com/Swiper/4.3.0/js/swiper.min.js"></script>
 
   <!-- Initialize Swiper -->
   <script>
