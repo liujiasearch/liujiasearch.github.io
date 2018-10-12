@@ -12,6 +12,15 @@
   <link href="//cdn.bootcss.com/Swiper/4.3.0/css/swiper.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link href="signin.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	<script src="detectmobilebrowser.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){	
+  		if(jQuery.browser.mobile==true)	;
+  		else  		
+  			$("input#wd").focus();
+  	});
+	</script>
   <!-- Demo styles -->
   <script type="text/javascript">
 		function searchBaidu(){
@@ -102,7 +111,7 @@
     			<img class="mb-1" src="//image.flaticon.com/icons/svg/202/202381.svg" alt="" width="48" height="48">
     			<form id="myForm" class="form-signin" action="//www.baidu.com/s" method="get">    				 
 						<div class="input-group">
-							<input type="text" name="wd" id="wd" autocomplete="off" placeholder="简易搜索" class="form-control" value=""/>
+							<input type="text" name="wd" id="wd" autocomplete="off" placeholder="简易搜索" class="form-control" value="" autofocus/>
 							<div class="input-group-append">
 								<span class="input-group-text" id="basic-addon2">
 									<button type="reset" class="close" aria-label="Close" >
