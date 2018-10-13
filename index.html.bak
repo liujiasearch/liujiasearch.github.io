@@ -63,7 +63,7 @@
       position: absolute;
       left: 10%;
       top: 5%;
-      /*margin-left: -40%;
+      margin-left: -5px;
       /argin-top: -5%;*/
     }
     .swiper-slide {      
