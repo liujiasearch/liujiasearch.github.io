@@ -62,7 +62,7 @@
       height: 90%;
       position: absolute;
       left: 10%;
-      top: 10%;
+      top: 5%;
       /*margin-left: -40%;
       /argin-top: -5%;*/
     }
