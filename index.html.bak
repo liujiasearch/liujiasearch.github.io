@@ -63,8 +63,8 @@
       position: absolute;
       left: 50%;
       top: 10%;
-      margin-left: -150px;
-      margin-top: -200px;
+      margin-left: -40%;
+      //margin-top: -5%;
     }
     .swiper-slide {      
       background-position:center center;   
